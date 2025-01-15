@@ -1,0 +1,31 @@
+nav {
+	background-color: #bae7a7;
+
+	ul {
+		list-style: none;
+		display: flex;
+		justify-content:space-around;
+
+		height: calc(32px + 1em);
+		
+		font-size: xx-large;
+		text-align: center;
+
+		a {
+			text-decoration: none;
+		}
+
+		li {
+			display: inline;
+		}
+
+		div {
+			display: flex;
+			align-items: center;
+			* {
+				display: inline;
+				margin: 0 0.5rem;
+			}
+		}
+	}
+}
