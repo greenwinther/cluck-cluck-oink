@@ -1,0 +1,15 @@
+$screenWidth: 80vw; // Skärmens bredd
+$screenHeight: 80vh; // Skärmens höjd
+
+
+$start-scale: 0; // Initiala storleken på bilden
+$mid-scale: 1.2; // Storleken på bilden när den är som störst
+$end-scale: 2.5; // Storleken på bilden när den är som minst
+
+$start-rotate: 0deg; // Hur mycket bilden ska roteras i början
+$mid-rotate: 0deg; // Hur mycket bilden ska roteras när den är som störst
+$end-rotate: 360deg; // Hur mycket bilden ska roteras i slutet
+
+$push-from-right: $screenWidth / 1; // Hur mycket bilden ska flyttas åt sidleds
+
+$push-from-left: -$screenWidth / 1; // Hur mycket bilden ska flyttas åt sidleds
