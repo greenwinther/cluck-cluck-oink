@@ -26,6 +26,8 @@
 
 	p {
 		overflow: auto;
+		overflow-wrap: break-word;
+		hyphens: auto;
 	}
 }
 
