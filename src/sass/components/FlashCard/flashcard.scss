@@ -4,9 +4,10 @@
 	gap: 0.5em;
 
 	background-color: #efefef;
-	border-radius: 5%;
+	border-radius: 5%;	
 
 	padding: 1rem;
+	margin: 0.25rem;
 
 	width: 300px;
 	height: 500px;
@@ -25,5 +26,16 @@
 
 	p {
 		overflow: auto;
+	}
+}
+
+.unflipped {
+	background-color: #ffadad;
+	border-width: 1rem;
+	border-color: #aa5d5d;
+	border-style: solid;
+
+	div {
+		display: none;
 	}
 }
