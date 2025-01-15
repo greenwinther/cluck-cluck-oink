@@ -12,7 +12,7 @@ export type FlashCard = {
 export const generateFlashCard = (flashCard: FlashCard) => {
 
 	const article = document.createElement("article");
-	article.classList.add("vontils-cards-flashcard");
+	article.classList.add("vontils-cards-flashcard", "unflipped");
 	const container = article.appendChild(document.createElement("div"));
 	container.appendChild(document.createElement("h2")).innerHTML = flashCard.title;
 	container.appendChild(document.createElement("h3")).innerHTML = flashCard.description.short;
@@ -22,6 +22,13 @@ export const generateFlashCard = (flashCard: FlashCard) => {
 	img.alt = "Image unavailible!";
 
 	container.appendChild(document.createElement("p")).innerHTML = flashCard.description.long;
+
+	article.addEventListener('click', (e) => {
+		if(article.classList.contains("unflipped"))
+			article.classList.remove("unflipped");
+		else
+			article.classList.add("unflipped");
+	});
 
 	return article as HTMLElement;
 }
