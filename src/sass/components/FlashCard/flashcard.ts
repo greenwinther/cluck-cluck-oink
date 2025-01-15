@@ -25,3 +25,15 @@ export const generateFlashCard = (flashCard: FlashCard) => {
 
 	return article as HTMLElement;
 }
+
+
+/* Rendered HTML
+<article class="vontils-cards-flashcard">
+	<h2>Title</h2>
+	<h3>Short description</h3>
+	<img src="Image Url" alt="Image unavailible!">
+	<p>
+		Long description
+	</p>
+</article>
+*/
