@@ -26,7 +26,7 @@ export const generateFlashCard = (flashCard: FlashCard) => {
 
 	container.appendChild(document.createElement("p")).innerHTML = flashCard.description.long;
 
-	article.addEventListener('click', (e) => {
+	article.addEventListener('click', () => {
 		if(article.classList.contains(unflippedSass))
 			article.classList.remove(unflippedSass);
 		else
