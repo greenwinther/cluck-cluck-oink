@@ -4,7 +4,7 @@ nav {
 	ul {
 		list-style: none;
 		display: flex;
-		justify-content:space-around;
+		justify-content:space-between;
 
 		height: calc(32px + 1em);
 		
@@ -22,6 +22,9 @@ nav {
 		div {
 			display: flex;
 			align-items: center;
+			gap: 2vw;
+			margin: 0 3vw;
+
 			* {
 				display: inline;
 				margin: 0 0.5rem;
