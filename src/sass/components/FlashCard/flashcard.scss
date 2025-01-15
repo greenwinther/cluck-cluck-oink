@@ -29,7 +29,7 @@
 	}
 }
 
-.unflipped {
+.vontils-card-unflipped {
 	background-color: #ffadad;
 	border-width: 1rem;
 	border-color: #aa5d5d;
@@ -38,4 +38,11 @@
 	div {
 		display: none;
 	}
+}
+
+.vontils-card-unselectable {
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
 }
