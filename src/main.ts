@@ -23,7 +23,7 @@ const cards: FlashCard[] = [
 		title: 'Chicken',
 		imgUrl: './public/Images/ChickenPicture_Pexels.jpg',
 		description: {
-			short: '',
+			short: 'Mind your own beakness!',
 			long: `A chicken is a small, feathered bird with a plump body, sharp beak, and clawed feet.
 			 Hens (females) are raised for their eggs, while roosters (males) are known for their loud crowing. 
 			 Chickens come in various colors, such as white, brown, and speckled patterns.
