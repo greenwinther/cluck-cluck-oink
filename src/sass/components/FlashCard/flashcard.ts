@@ -12,6 +12,7 @@ export type FlashCard = {
 export const generateFlashCard = (flashCard: FlashCard) => {
 
 	const article = document.createElement("article");
+	article.classList.add("vontils-cards-flashcard");
 	const container = article.appendChild(document.createElement("div"));
 	container.appendChild(document.createElement("h2")).innerHTML = flashCard.title;
 	container.appendChild(document.createElement("h3")).innerHTML = flashCard.description.short;
@@ -22,5 +23,5 @@ export const generateFlashCard = (flashCard: FlashCard) => {
 
 	container.appendChild(document.createElement("p")).innerHTML = flashCard.description.long;
 
-	return article;
+	return article as HTMLElement;
 }
